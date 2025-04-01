@@ -7,13 +7,18 @@
     body {
       font-family: 'Arial', sans-serif;
       background-color: #1a1a1a; /* Dark background */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
       margin: 0;
-      color: white; /* White text color for readability */
+      color: white;
       text-align: center;
+    }
+
+    .flowers {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1; /* This places the image in the background */
     }
 
     .title {
@@ -25,7 +30,8 @@
       background-clip: text;
       text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
       letter-spacing: 2px;
-      margin-bottom: 20px; /* Space between title and the text */
+      margin-top: 200px; /* Space from the top of the page */
+      margin-bottom: 20px;
     }
 
     .message {
@@ -37,11 +43,13 @@
       background-clip: text;
       text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
       line-height: 1.5;
+      margin-top: 20px;
     }
   </style>
   <title>A Gift for a Special Person</title>
 </head>
 <body>
+  <img src="your-flower-image-url.jpg" alt="Flowers" class="flowers"> <!-- Add the URL of your flowers image here -->
   <div class="title">A Gift for a Special Person</div>
   <div class="message">
     This is a special gift created just for you, with all the love and care that you deserve.
