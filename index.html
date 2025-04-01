@@ -6,12 +6,14 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #1a1a1a; /* dark background */
+      background-color: #1a1a1a; /* Dark background */
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
       margin: 0;
+      color: white; /* White text color for readability */
+      text-align: center;
     }
 
     .title {
@@ -22,13 +24,28 @@
       -webkit-background-clip: text;
       background-clip: text;
       text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      text-align: center;
       letter-spacing: 2px;
+      margin-bottom: 20px; /* Space between title and the text */
+    }
+
+    .message {
+      font-size: 1.5rem;
+      color: #fff;
+      background-image: linear-gradient(to right, #D50032, #F7A7B1, #30D5C8);
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      line-height: 1.5;
     }
   </style>
   <title>A Gift for a Special Person</title>
 </head>
 <body>
   <div class="title">A Gift for a Special Person</div>
+  <div class="message">
+    This is a special gift created just for you, with all the love and care that you deserve.
+    May this gesture brighten your day and remind you of how important you are to me.
+  </div>
 </body>
 </html>
