@@ -7,9 +7,7 @@
 }
 
 :root {
-  --petal-color: #f28b82; /* Pink for petals */
-  --leaf-color: #81c784; /* Green for leaves */
-  --outline-color: #616161; /* Gray outline */
+  --dark-color: #000;
 }
 
 body {
